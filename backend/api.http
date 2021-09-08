@@ -1,2 +1,14 @@
 ### All sellers
 GET {{host}}/sellers
+
+### Page of sales
+GET {{host}}/sales
+
+### Page (page=2 / size=10) of sales
+GET {{host}}/sales?page=2&size=10
+
+### Page (page=0 / size=10 / sort=date) of sales
+GET {{host}}/sales?page=2&size=10&sort=date
+
+### Page (page=0 / size=10 / sort=date,desc) of sales
+GET {{host}}/sales?page=2&size=10&sort=date,desc
