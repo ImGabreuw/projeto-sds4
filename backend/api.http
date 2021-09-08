@@ -12,3 +12,9 @@ GET {{host}}/sales?page=2&size=10&sort=date
 
 ### Page (page=0 / size=10 / sort=date,desc) of sales
 GET {{host}}/sales?page=2&size=10&sort=date,desc
+
+### Amount by seller
+GET {{host}}/sales/amount-by-seller
+
+### Success by seller
+GET {{host}}/sales/success-by-seller
